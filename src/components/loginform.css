@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "CustomFont";
+} 
+
+@font-face {
+    font-family: "CustomFont";
+    src: url("../components/fonts/PlusJakartaSans-VariableFont_wght.ttf");
+}
+
+.page {
+    height: 100vh;
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+
+.cover {
+    background-color: white;
+    margin: auto;
+    width: 80%;
+    height: 35em;
+    border-radius: 60px;
+    box-shadow: 0 0.188em 1.550em rgba(0,0,0,0.705);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+} 
+
+.alt-log {
+    width: 80%;
+    height: 3em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.alt-log div {
+    width: 45%;
+    height: 90%;
+    border-radius: 0.25em;
+    background-color: white;
+    background-position: center; 
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.google {background-image: url("../components/icons/google.png");}
+.facebook {background-image: url("../components/icons/facebook.png");}
+
+input {
+    border: none; 
+    background-color: rgb(229,226,226);
+    height: 4em;
+    width: 80%;
+    border-radius: 0.25em;
+    text-align: center;
+    padding: 2em;
+}
+
+/* outline around the username and password*/
+input:focus {
+    outline-color: lightblue;
+}
+
+/* login buttom */ 
+.login-btn {
+    width: 40%;
+    height: 3em;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    border-radius: 0.25em;
+    cursor: pointer;
+}
+.login-btn:hover {transform: scale(1.25);}
+
+/* text = or login using */ 
+.text {
+    position: relative;
+    bottom: -2em;
+}

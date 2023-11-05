@@ -1,0 +1,31 @@
+.navBar {
+    width: 100vw;
+    background-color: rgb(109, 109, 182);
+    color: white;
+    font-size: 24px;
+    padding: 5px;
+    margin: auto;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin-right: 1em;
+}
+
+nav ul li:hover {
+    color: rgba(0,0,0,0.705)
+}
+
+nav ul li:active {
+    background-color: green;
+}
